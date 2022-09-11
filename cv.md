@@ -57,7 +57,8 @@
 | :------------: | :------------: | :------------: | :------------: |
 | 1 |  MobgoDB  |  strong-basic - middle |  Node.js(Express.js)  |  Also basicly know Mongoose|
 | 2 |  SQL (Oracle)  |  strong-basic |  -  |  Query, Join, Union etc.  |
-###Technical Skills
+
+### Technical Skills
 - Rich expirience of using PC
 - Using OS : Windows, Linux (Ubuntu)
 - Arduino
