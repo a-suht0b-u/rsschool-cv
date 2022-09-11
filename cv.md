@@ -65,3 +65,174 @@
 - Assembly (basics)
 - Algorithms and Data Structure
 - OOP patterns (GoF)
+
+### Example of my codes
+**1. Javascript** *(Node.js)* - solving a competive task in Codeforces platform
+```javascript
+Number.prototype.toInt = function () {
+	return parseInt(this);
+};
+String.prototype.toNumber = function () {
+	return +this;
+};
+String.prototype.clone = function () {
+	return this.slice();
+};
+Array.prototype.unique = function () {
+	return [...new Set(this)];
+}
+ 
+ 
+const readline = require('readline');
+ 
+const rl = readline.createInterface({
+	input: process.stdin,
+	output: process.stdout,
+});
+ 
+class Input {
+ 
+	constructor() {
+		this._lineIndex = 0
+		this._inputsBuffer = []
+	}
+ 
+	get _currentLine() {
+		return this._lineIndex++;
+	}
+ 
+	buffer(value) {
+		this._inputsBuffer.push(value);
+	}
+ 
+	readLine() {
+		return this._inputsBuffer[this._currentLine];
+	}
+ 
+	readNumber() {
+		return this.readLine().toNumber();
+	}
+ 
+	readArray() {
+		return this.readLine().split(' ');
+	}
+ 
+	readIntArray() {
+		return this.readArray().map(item => parseInt(item));
+	}
+ 
+}
+ 
+const io = new Input();
+ 
+rl.on('line', (input) => {
+	io.buffer(input);
+});
+ 
+rl.on('close', () => {
+	// const lines = require('fs').readFileSync('test.in', 'utf8').split('\n')
+	let [len, maxDigit] = io.readIntArray();
+	let ans = 0;
+ 
+	while (len--) {
+		const sufficientDigits = io.readLine()
+			.split('')
+			.unique()
+			.sort()
+			.slice(0, maxDigit + 1);
+		ans += sufficientDigits
+			.reduce((total, digit, index) => total & (digit == index),
+				sufficientDigits.length === maxDigit + 1);
+	}
+ 
+	console.log(ans);
+});```
+
+**2. C++** -  solving a competive task in Codeforces platform
+
+```cpp
+#include <bits/stdc++.h>
+#define CPP_IO_BOOSTER	    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0)
+
+using namespace std;
+ 
+size_t count_set_bits(size_t num) 
+{
+    size_t set_bits{};
+    while (num) {
+        set_bits += num & 1;
+        num >>= 1;
+    }
+    return set_bits;
+}
+ 
+inline void solve()
+{
+    size_t soldiers_typies, 
+			  players_number, 
+	          acceptable_bit_diff, 
+	          friends{};
+    cin >> soldiers_typies >> players_number >> acceptable_bit_diff;
+   
+	vector<size_t> armies(players_number + 1);
+	
+    ranges::for_each(armies, [](auto& army) {cin >> army; });
+	
+    for_each(armies.begin(), prev(armies.end()), [&friends, &armies,&acceptable_bit_diff](const auto& army){
+            friends += (count_set_bits(army ^ armies.back()) <= acceptable_bit_diff);
+        }
+    );
+	
+    cout << friends;
+}
+int main()
+{
+	CPP_IO_BOOSTER;
+
+    int test_cases;
+    cin >> test_cases;
+    while (test_cases--)
+         solve();
+}```
+
+**3. Python**
+```python
+class CircleLine:
+    def __init__(self,start,destination,distances):
+        self.start= min(start,destination)-1
+        self.destination= max(start,destination)-1
+        self.distances=distances
+    def Ans(self):
+        temp=sum(self.distances[self.start:self.destination])
+        return min(temp,sum(self.distances)-temp)
+    def __str__(self):
+        return '{}'.format(self.Ans())
+ 
+ 
+input()
+distances=list(map(int,input().split()))
+p1,p2=map(int,input().split())
+print(CircleLine(p1,p2,distances))
+```
+
+*The other real examples of my code you can find on next resources : &darr;* 
+1. [Compettive Programming (Algorithms) [My Codeforces account]]](https://codeforces.com/submissions/Dewars/page/7 "Compettive Programming (Algorithms) [My Codeforces account]]")
+2. [My GitHub account]( https://github.com/a-suht0b-u "My GitHub account") [My Projects] :
+	- [React](https://github.com/a-suht0b-u/ReactApp "React")
+	- [CSS/HTML](https://github.com/a-suht0b-u/CSS "CSS/HTML")
+	- [Python *(Django)*](https://github.com/a-suht0b-u/Django-News-blog "Python *(Django)*")
+
+### Additional Trainings
+1. [Udemy](https://www.udemy.com "Udemy")
+	- JavaScript Courses:
+		- [JS ](https://www.udemy.com/course/the-complete-javascript-course/ "JS ")
+		- [React](https://www.udemy.com/course/react-the-complete-guide-incl-redux/ "React")
+		- [Node.js + Express.js](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/ "Node.js + Express.js")
+	- [HTML5 & CSS3 & SASS](https://www.udemy.com/course/advanced-css-and-sass/ "HTML5 & CSS3 & SASS")
+	- Databases:
+		- [MongoDB](https://www.udemy.com/course/mongodb-the-complete-developers-guide/ "MongoDB")
+		- [Oracle SQL](https://www.udemy.com/course/sql-oracle-certification/ "Oracle SQL")
+2. OTUS:
+	- C++
+3. CyberBionic Systematics:
+	- [C#](https://edu.cbsystematics.com/ru/courses-and-prices#FF7F8424-653B-401B-9888-902CBEE45F4A "C#")
