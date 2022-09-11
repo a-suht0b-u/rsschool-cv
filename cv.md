@@ -53,10 +53,10 @@
 | 2 | CSS3  | good  | Grid, Flex, modern CSS UI etc   |
 
 ### Database Skills
-| №  | Technology  | Level |Use with  | Details  |
-| :------------: | :------------: | :------------: | :------------: |
+| №  | Technology  | Level | Use with  | Details  |
+| :------------: | :------------: | :------------: | :------------: | :------------: |
 | 1 |  MobgoDB  |  strong-basic - middle |  Node.js(Express.js)  |  Also basicly know Mongoose|
-| 2 |  SQL (Oracle)  |  strong-basic |  -  |  Query, Join, Union etc.  |
+| 2 |  SQL (Oracle)  |  strong-basic |  -  |  Query, Join, Union etc  |
 
 ### Technical Skills
 - Rich expirience of using PC
