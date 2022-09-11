@@ -54,7 +54,7 @@
 
 | №  | Language  | Level of native (standardized/built-in) aspects | Experience | Use for | Frameworks   |
 | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
-| 1  | js  | good  | 1.5+ years  | web, algorithms, apps |1.React(strong-mid)  2.Node.js+Express.js (strong-basic) 3.React(strong-mid)  |
+| 1  | js  | good  | 1.5+ years  | web, algorithms, apps |1.React(strong-mid)  2.Node.js+Express.js (strong-basic) 3.Next.js(strong-mid)  |
 | 2  |  C++ | middle  | 1.5+ years  | algorithms  | Qt (basic)  |
 | 3 | Python  | middle  | 1.5 years  |  allgorithms | -  |
 | 4 | C#  | middle  | 1 year  | study OOP  |  1.LINQ 2.Entity Framework |
