@@ -261,3 +261,6 @@ print(CircleLine(p1,p2,distances))
 	- C++
 3. CyberBionic Systematics:
 	- [C#](https://edu.cbsystematics.com/ru/courses-and-prices#FF7F8424-653B-401B-9888-902CBEE45F4A "C#")
+
+# News
+***At the moment, I am learning a new on-demand programming language - Rust.***
