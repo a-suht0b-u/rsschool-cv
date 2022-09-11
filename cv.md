@@ -1,11 +1,19 @@
 # Suhrob Abdunabiev
+
 *Junior software engnieer and frontend developer*
+
 [![Personal photo](./static/img/CV.PNG "Personal photo")](./static/img/CV.PNG "Personal photo")
+
 ## Personal info
+
 **First name** : *Sukhrob*
+
 **Second name**: *Abdunabiev*
+
 **Date of birth** : *12.06.2000*
+
 **Marital status** : *single*
+
 
 |  Contacts | Type  | Value  |
 | :------------: | :------------: | :------------: |
@@ -65,6 +73,8 @@
 - Assembly (basics)
 - Algorithms and Data Structure
 - OOP patterns (GoF)
+- Git + GitHub
+- **IDE** : *Visual Studio, Visual Studio Code*
 
 ### Example of my codes
 
