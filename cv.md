@@ -20,3 +20,18 @@
 ### Profile
 >Hello, my name is Sukhrob Abdunabiyev, today I am a student at the school of "software engineering" at the University of China. I am interested from school in various aspects of programming, such as robotics (Arduino), writing algorithms (C++) and creating applications (js[React,Node], C++) and others. In order to always meet the advanced standard and requirements, I am not delving into modern technology and new aspects of modern programming languages, as I consider it necessary to become a competitive specialist. Currently, I work as a frontend developer in a marketing company (create different information sites for customers, such as landing pages, etc.).I can also say that I am highly motivated and deformed.
 ***P.S. I am ready to do my utmost to pass this selection and become your partner.***
+
+## Education Background
+### Education
+| №  | Name  | From | To  | Major  | Country |
+| :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
+| 1 | Huazhong university of science and technology  | 2019  | now  | Software engineering | China  |
+| 2 | Professional Collage of Inforamtion Technologies of Tashkent | 2016 | 2019 | Computer engineering | Tashkent |
+
+### Language skills
+| №  | Language  | Level  | Skills  | Details  |
+| :------------: | :------------: | :------------: | :------------: | :------------: |
+| 1  | Uzbek  | Native  | fluency in all aspects of the language  | use it for communication and study, especially school  |
+| 2  | Russian  | Native  | fluency in all aspects of the language  | use it for communication and study, especially school  |
+| 3  | English  |  B1-B2  | fluency in reading, listening, writing  | use it for communication and study up to now  |
+| 4 | Chinese |  HSK 4-5 | very good command | mainly use it for communication and study in China | 
