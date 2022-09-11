@@ -2,7 +2,7 @@
 
 *Junior software engnieer and frontend developer*
 
-[![Personal photo](./static/img/CV.PNG "Personal photo")](./static/img/CV.PNG "Personal photo")
+[![Personal photo](./static/img/personal_photo.jpg "Personal photo")](./static/img/personal_photo.jpg "Personal photo")
 
 ## Personal info
 
