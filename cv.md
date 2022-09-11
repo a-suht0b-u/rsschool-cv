@@ -219,7 +219,7 @@ print(CircleLine(p1,p2,distances))
 ```
 
 *The other real examples of my code you can find on next resources : &darr;*
-1. [Compettive Programming (Algorithms) [My Codeforces account]]](https://codeforces.com/submissions/Dewars/page/7 "Compettive Programming (Algorithms) [My Codeforces account]]")
+1. [Compettive Programming (Algorithms) [My Codeforces account]](https://codeforces.com/submissions/Dewars/page/7 "Compettive Programming (Algorithms) [My Codeforces account]")
 2. [My GitHub account]( https://github.com/a-suht0b-u "My GitHub account") [My Projects] :
 	- [React](https://github.com/a-suht0b-u/ReactApp "React")
 	- [CSS/HTML](https://github.com/a-suht0b-u/CSS "CSS/HTML")
