@@ -67,7 +67,9 @@
 - OOP patterns (GoF)
 
 ### Example of my codes
+
 **1. Javascript** *(Node.js)* - solving a competive task in Codeforces platform
+
 ```javascript
 Number.prototype.toInt = function () {
 	return parseInt(this);
@@ -196,6 +198,7 @@ int main()
 }```
 
 **3. Python**
+
 ```python
 class CircleLine:
     def __init__(self,start,destination,distances):
@@ -212,16 +215,15 @@ class CircleLine:
 input()
 distances=list(map(int,input().split()))
 p1,p2=map(int,input().split())
-print(CircleLine(p1,p2,distances))
-```
+print(CircleLine(p1,p2,distances))```
 
-*The other real examples of my code you can find on next resources : &darr;* 
+*The other real examples of my code you can find on next resources : &darr;*
 1. [Compettive Programming (Algorithms) [My Codeforces account]]](https://codeforces.com/submissions/Dewars/page/7 "Compettive Programming (Algorithms) [My Codeforces account]]")
 2. [My GitHub account]( https://github.com/a-suht0b-u "My GitHub account") [My Projects] :
 	- [React](https://github.com/a-suht0b-u/ReactApp "React")
 	- [CSS/HTML](https://github.com/a-suht0b-u/CSS "CSS/HTML")
 	- [Python *(Django)*](https://github.com/a-suht0b-u/Django-News-blog "Python *(Django)*")
-
+	
 ### Additional Trainings
 1. [Udemy](https://www.udemy.com "Udemy")
 	- JavaScript Courses:
