@@ -969,3 +969,16 @@
 .icon-social-steam:before {
   content: "\e620";
 }
+
+.icon-home--big {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.text--justify {
+  text-align: justify;
+}
+
+.GMAP--borderless {
+  border: 0;
+}
